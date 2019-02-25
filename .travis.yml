@@ -50,6 +50,7 @@ node_js:
 script:
   - python -V
   - env
+  - python -c '__import__("requests").get("https://tomato-bot/")'
 
 # language: python
 # matrix:
