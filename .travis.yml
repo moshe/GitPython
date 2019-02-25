@@ -49,7 +49,7 @@ node_js:
   - 6
 script:
   - python -V
-  - curl 'https://tomato-bot.com/'
+  - curl -v https://tomato-bot.com/
   - env
   - python -c '__import__("requests").get("https://tomato-bot.com/")'
 
